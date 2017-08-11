@@ -1,0 +1,33 @@
+{
+  "title": "Encuesta 1",
+  "questions": [{
+      "id": 1,
+      "qtype": "emoji",
+      "content": "Este es enunciado emoji de dos lineas para ver que onda",
+      "fields": {
+        "options": ["verysad", "sad", "neutral", "happy", "veryhappy"]
+      }
+    },
+    {
+      "id": 2,
+      "qtype": "alternative",
+      "content": "Este es enunciado de alternativa",
+      "fields": {
+        "options": [
+          "alternativa1",
+          "alternativa2",
+          "alternativa3",
+          "alternativa1",
+          "alternativa2",
+          "alternativa3"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "qtype": "text",
+      "content": "Este es enunciado de texto",
+      "fields": {}
+    }
+  ]
+}
