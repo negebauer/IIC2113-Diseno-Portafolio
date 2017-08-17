@@ -133,7 +133,7 @@ const someCourse
 Notification.courseUpdate(someCourse)
 ```
 
-Se tienen luego los patrones:
+Se tienen en resumen los siguientes patrones:
  - [Adaptador](https://en.wikipedia.org/wiki/Adapter_pattern): Se convierte la interfaz de las líbrerias de notificación en una interfaz común
  - [Fachada](https://en.wikipedia.org/wiki/Facade_pattern): Interfaz unificada `Notification` a las distintas notificaciones
  - [Estrategia](https://en.wikipedia.org/wiki/Strategy_pattern): Se encapsulan las notificaciones a cada dispositivo en una llamada
