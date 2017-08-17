@@ -141,7 +141,7 @@ Se tienen en resumen los siguientes patrones:
  También ayuda a que el sistema de notificaciones sea más extensible, definiendo un único lugar donde se configuran las mismas.
  Si se quiere tener un nuevo tipo de notificacións basta agregarla a `Notification`
 
- Se puede ver el código completo en el archivo [Notification.js](./Notification.js)
+ Se puede ver el código completo en el archivo [notification.js](./notification.js)
 
 <!-- Links -->
 [node-apn]:https://github.com/node-apn/node-apn
