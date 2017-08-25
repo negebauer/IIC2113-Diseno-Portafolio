@@ -1,5 +1,10 @@
 ### Sistema de notificaciones en API
 
+Patrones importantes:
+ - [Adaptador](https://en.wikipedia.org/wiki/Adapter_pattern): Se convierte la interfaz de las líbrerias de notificación en una interfaz común
+ - [Fachada](https://en.wikipedia.org/wiki/Facade_pattern): Interfaz unificada `Notification` a las distintas notificaciones
+ - [Estrategia](https://en.wikipedia.org/wiki/Strategy_pattern): Se encapsulan las notificaciones a cada dispositivo en una llamada
+
 En el contexto del desarrollo de una API se necesitaba un sistema de notificaciones.
 El sistema funciona con dispositivos iOS y Android, por lo que debe ser capaz de enviar notificaciones a ambos.
 Para ello se usaron las librerías [node-apn] y [node-gcm].
@@ -132,11 +137,6 @@ const Notification = require('../path/to/notifications.js')
 const someCourse
 Notification.courseUpdate(someCourse)
 ```
-
-Se tienen en resumen los siguientes patrones:
- - [Adaptador](https://en.wikipedia.org/wiki/Adapter_pattern): Se convierte la interfaz de las líbrerias de notificación en una interfaz común
- - [Fachada](https://en.wikipedia.org/wiki/Facade_pattern): Interfaz unificada `Notification` a las distintas notificaciones
- - [Estrategia](https://en.wikipedia.org/wiki/Strategy_pattern): Se encapsulan las notificaciones a cada dispositivo en una llamada
 
  También ayuda a que el sistema de notificaciones sea más extensible, definiendo un único lugar donde se configuran las mismas.
  Si se quiere tener un nuevo tipo de notificacións basta agregarla a `Notification`
