@@ -2,7 +2,7 @@
 
 En la E1 se debian realizar diagramas. Entre ellos hicimos un diagrama de clases, el cual se presenta a continuación
 
-![diagrama]('./diagrama.png')
+![diagrama](./diagrama.png)
 
 Un diagrama de clases presenta la idea de las clases que van a interactuar en un programa, junto con los atributos más importantes de estas.
 También muestra las relaciones entre las clases.
