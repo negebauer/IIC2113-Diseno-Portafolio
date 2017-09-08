@@ -4,3 +4,4 @@
 - [Agosto 18](./08-18)
 - [Agosto 25](./08-25)
 - [Septiembre 1](./09-01)
+- [Septiembre 8](./09-08)
