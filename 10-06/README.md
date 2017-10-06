@@ -22,9 +22,27 @@ El contexto es opcional. Este permite dar un contexto al commit. Por ejemplo, si
 
 La descripción del commit debe describir de manera resumida lo que hace el commit.
 
-Luego le sigue el cuerpo, este puede tener comentarios adicionales sobre lo hecho.
+Luego le sigue el cuerpo, este puede tener comentarios adicionales sobre lo hecho. Por ejemplo:
 
-Y finalmente el pie del commit. Este contiene metada adicional sobre el commit. Por ejemplo, puede hacer referencia a issues de Github que se arreglan con el commit (`fix #4` por ejemplo). Esto permite cerrar las issues cuando se hace el merge a la branch por defecto y que quede la conexión problema-solución.
+--
+
+_feat(dashboard)_: assets dashboard
+
+Now the general state of assets can be viewed in the dashboard
+
+--
+
+Y finalmente el pie del commit. Este contiene metada adicional sobre el commit. Por ejemplo, puede hacer referencia a issues de Github que se arreglan con el commit (`fix #4` por ejemplo). Esto permite cerrar las issues cuando se hace el merge a la branch por defecto y que quede la conexión problema-solución. Por ejemplo:
+
+--
+
+_feat_: portfolio 10-06
+
+Done portfolio 10-06 about conventional commits
+
+Closes #1
+
+--
 
 También, si se introucen cambios que rompen APIs anteriores del programa esto debe ser señalado en el cuerpo o pie con el mensaje `BREAKING CHANGE: descripción cambio`. Por ejemplo:
 
