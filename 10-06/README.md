@@ -55,3 +55,5 @@ BREAKING CHANGE: cli params take precedence over env variables
 --
 
 Si se siguen estas reglas la historia de commits de un repositorio es mucho más fácil de entender para todos.
+
+Para otro ejemplo ver este commit: 08bb941b205ccab4a46eb8dedc0731b79b30f69a
