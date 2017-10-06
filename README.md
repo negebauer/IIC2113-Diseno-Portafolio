@@ -5,3 +5,4 @@
 - [Agosto 25](./08-25)
 - [Septiembre 1](./09-01)
 - [Septiembre 8](./09-08)
+- [Octubre 6](./10-06)
