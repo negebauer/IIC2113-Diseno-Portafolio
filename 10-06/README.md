@@ -40,7 +40,7 @@ _feat_: portfolio 10-06
 
 Done portfolio 10-06 about conventional commits
 
-Closes #1
+closes #1
 
 --
 
